@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    padding: ($myPadding * 2) 0;
+    flex-basis: calc(100% / 2);
+}
+
+.textSide {
+    width: 100%;
+}
+
+.imgSide {
+    width: 100%;
+    img {
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+
