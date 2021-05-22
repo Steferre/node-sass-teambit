@@ -3,3 +3,13 @@
     width: 100%;
     margin: auto; 
 }
+
+@mixin basicWrapperRule {
+    display: flex;
+    padding: ($myPadding * 2) 0;
+}
+
+@mixin defaultImgFit {
+    width: 100%;
+    object-fit: contain;
+}

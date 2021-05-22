@@ -1,6 +1,5 @@
 .wrapper {
-    display: flex;
-    padding: ($myPadding * 2) 0;
+    @include basicWrapperRule;
     flex-basis: calc(100% / 2);
 }
 
@@ -11,9 +10,6 @@
 .imgSide {
     width: 100%;
     img {
-        width: 100%;
-        object-fit: contain;
+        @include defaultImgFit;
     }
 }
-
-

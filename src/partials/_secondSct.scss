@@ -1,0 +1,47 @@
+.secondSct {
+    background-color: $originalBgColor;
+    padding-bottom: $myPadding * 3;
+}
+
+.wrapper {
+    @include basicWrapperRule;
+}
+
+.wrapVertical {
+    flex-direction: column;
+}
+
+.spaceLine {
+    border-bottom: 1px solid $txtColor;
+}
+
+.imgRow {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: calc(100% / 3);
+    margin: ($myMargin * 7) 0;
+        .imgBox {
+            width: 200px;
+            height: 80px;
+                img {
+                    @include defaultImgFit;
+                    height: 80px;
+                }
+                p {
+                    font-size: 10px;
+                    text-align: center;
+                    padding: ($myPadding * 2) 0;
+                }
+        }
+}
+
+.cntImgBox{
+    display: flex;
+    justify-content: center;
+    width: 34%;
+    margin: ($myMargin * 10) auto;
+
+        img {
+            @include defaultImgFit;
+        }
+}
