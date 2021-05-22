@@ -20,12 +20,24 @@ body {
     @include basicWrapperRule;
 }
 
+.wrapVertical {
+    flex-direction: column;
+}
+
 .wrapBasis {
     flex-basis: calc(100% / 2);
 }
 
 .wrapReverse {
     flex-direction: row-reverse;
+}
+
+.wrapCenterH {
+    justify-content: center;
+}
+
+.wrapCenterV {
+    align-items: center;
 }
 
 h3 {

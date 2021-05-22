@@ -1,0 +1,35 @@
+.fourthSct {
+    background-color: $originalBgColor;
+}
+
+.box {
+    background-color: #FFFFFF;
+    padding: $myPadding * 2;
+    border: 1px solid $btnColor;
+    border-radius: 10px;
+    width: 65%;
+        p {
+            font-size: $captionsFontSize;
+            margin: ($myMargin * 2) 0;
+        }
+}
+
+.founderPhoto {
+    display: flex;
+        img {
+            width: 40px;
+            height: 40px;
+            margin-right: ($myMargin * 2);
+        }
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 14px;
+        .name {
+            color: $btnColor;
+        }
+}
