@@ -8,8 +8,24 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.emptySpace {
+    flex-grow: 1;
+}
+
 .container {
     @include defaultContainerRule;
+}
+
+.wrapper {
+    @include basicWrapperRule;
+}
+
+.wrapBasis {
+    flex-basis: calc(100% / 2);
+}
+
+.wrapReverse {
+    flex-direction: row-reverse;
 }
 
 h3 {

@@ -1,5 +1,6 @@
 /*file generici*/
 /*colori*/
+/*font size*/
 * {
   margin: 0;
   padding: 0;
@@ -10,10 +11,27 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.emptySpace {
+  flex-grow: 1;
+}
+
 .container {
-  max-width: 850px;
+  max-width: 950px;
   width: 100%;
   margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  padding: 20px 0;
+}
+
+.wrapBasis {
+  flex-basis: calc(100% / 2);
+}
+
+.wrapReverse {
+  flex-direction: row-reverse;
 }
 
 h3 {
@@ -26,10 +44,6 @@ h3 {
   align-items: center;
   padding: 5px;
   border-bottom: 1px solid #58402C;
-}
-
-.emptySpace {
-  flex-grow: 1;
 }
 
 .logoBox {
@@ -75,12 +89,6 @@ h3 {
   margin-left: 5px;
 }
 
-.wrapper {
-  display: flex;
-  padding: 20px 0;
-  flex-basis: calc(100% / 2);
-}
-
 .textSide {
   width: 100%;
 }
@@ -97,11 +105,6 @@ h3 {
 .secondSct {
   background-color: #F6E2D5;
   padding-bottom: 30px;
-}
-
-.wrapper {
-  display: flex;
-  padding: 20px 0;
 }
 
 .wrapVertical {
@@ -129,7 +132,7 @@ h3 {
   height: 80px;
 }
 .imgRow .imgBox p {
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
   padding: 20px 0;
 }
@@ -142,6 +145,44 @@ h3 {
 }
 .cntImgBox img {
   width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.imgSide {
+  width: 100%;
+}
+.imgSide img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.contentSide {
+  display: flex;
+  width: 100%;
+}
+.contentSide .contentBox {
+  width: 60%;
+}
+.contentSide .contentBox h5 {
+  margin-bottom: 10px;
+}
+.contentSide .contentBox p {
+  font-size: 12px;
+  padding: 20px 0 10px;
+}
+.contentSide .contentBox a {
+  text-decoration: none;
+  font-size: 12px;
+}
+.contentSide .contentBox .imageBox {
+  width: 100%;
+  margin-top: 10px;
+}
+.contentSide .contentBox .imageBox img {
+  width: 100%;
+  max-height: 215px;
   -o-object-fit: contain;
      object-fit: contain;
 }

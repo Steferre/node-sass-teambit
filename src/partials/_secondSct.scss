@@ -3,10 +3,6 @@
     padding-bottom: $myPadding * 3;
 }
 
-.wrapper {
-    @include basicWrapperRule;
-}
-
 .wrapVertical {
     flex-direction: column;
 }
@@ -28,7 +24,7 @@
                     height: 80px;
                 }
                 p {
-                    font-size: 10px;
+                    font-size: $captionsFontSize;
                     text-align: center;
                     padding: ($myPadding * 2) 0;
                 }

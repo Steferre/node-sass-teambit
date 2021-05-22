@@ -1,0 +1,34 @@
+.imgSide {
+    width: 100%;
+        img {
+            @include defaultImgFit;
+        }
+}
+
+.contentSide {
+    display: flex;
+    width: 100%;
+        .contentBox {
+            width: 60%;
+            h5 {
+                margin-bottom: $myMargin * 2;
+            }
+            p {
+                font-size: $captionsFontSize;
+                padding: ($myPadding * 2) 0 ($myPadding);
+            }
+            a {
+                text-decoration: none;
+                font-size: $captionsFontSize;
+            }
+            .imageBox {
+                width: 100%;
+                margin-top: $myMargin * 2;
+                img {
+                    width: 100%;
+                    max-height: 215px;
+                    object-fit: contain;
+             }
+         }
+     }
+}
