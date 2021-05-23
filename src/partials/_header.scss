@@ -19,7 +19,7 @@
 .navbarLinks {
     ul {
         display: flex;
-        list-style: none;
+        @include defaultListStyle;
         li {
             padding: $myPadding;
             a {

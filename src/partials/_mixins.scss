@@ -13,3 +13,7 @@
     width: 100%;
     object-fit: contain;
 }
+
+@mixin defaultListStyle {
+    list-style: none;
+}

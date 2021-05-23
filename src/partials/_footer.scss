@@ -1,0 +1,41 @@
+span {
+    font-size: 13.28px;
+}
+
+small{
+    color: $btnColor;
+}
+
+h5 {
+    margin-bottom: ($myMargin * 4);
+}
+ul {
+    @include defaultListStyle;
+    font-size: $captionsFontSize;
+    line-height: 25px;
+}
+
+.slogan {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    height: 65px;
+        .sloganLogo {
+            margin-right: $myMargin * 2;
+                img {
+                    width: 45px;
+                    height: 45px;
+                }
+        }
+        .sloganTxt {
+            padding-right: ($myPadding * 4);
+        }
+}
+
+.listBox {
+    width: 12%;
+}
+
+.listBoxLg {
+    width: 17%;
+}

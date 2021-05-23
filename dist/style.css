@@ -230,3 +230,46 @@ h3 {
 .text .name {
   color: #0E14EE;
 }
+
+span {
+  font-size: 13.28px;
+}
+
+small {
+  color: #0E14EE;
+}
+
+h5 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.slogan {
+  display: flex;
+  align-items: center;
+  width: 35%;
+  height: 65px;
+}
+.slogan .sloganLogo {
+  margin-right: 10px;
+}
+.slogan .sloganLogo img {
+  width: 45px;
+  height: 45px;
+}
+.slogan .sloganTxt {
+  padding-right: 40px;
+}
+
+.listBox {
+  width: 12%;
+}
+
+.listBoxLg {
+  width: 17%;
+}
