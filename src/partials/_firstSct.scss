@@ -1,5 +1,28 @@
 .textSide {
     width: 100%;
+        h1 {
+            font-size: ($captionsFontSize * 2);
+            margin-bottom: ($myMargin * 2);
+        }
+        p {
+            font-size: ($captionsFontSize + 1px);
+            margin-bottom: ($myMargin * 5);
+        }
+        button {
+            display: inline-block;
+            padding: ($myPadding / 2) $myPadding;
+            background-color: $newBtnColor;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 5px;
+            font-size: $captionsFontSize;
+                img {
+                    vertical-align: middle;
+                }
+                span {
+                    vertical-align: middle;
+                }
+        }
 }
 
 .imgSide {

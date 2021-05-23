@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     padding: $myPadding / 2;
-    border-bottom: 1px solid $txtColor;
+    border-bottom: 1px solid $newTxtColor;
 }
 
 .logoBox {
@@ -24,7 +24,10 @@
             padding: $myPadding;
             a {
                 text-decoration: none;
-                color: $txtColor;
+                color: $newTxtColor;
+                    &:hover {
+                    color: $newHoverColor;
+                }
             }
         }
     }
@@ -34,10 +37,13 @@
     display: flex;
     align-items: center;
     background-color: transparent;
-    border: 1px solid $btnColor;
+    border: 1px solid $newBtnColor;
     border-radius: 10px;
     padding: $myPadding;
-    color: $btnColor;
+    color: $newBtnColor;
+    &:hover {
+        background-color: $newTxtColor;
+    }
     img {
         width: 20px;
         height: 20px;

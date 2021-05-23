@@ -2,13 +2,14 @@ span {
     font-size: 13.28px;
 }
 
-small{
+small {
     color: $btnColor;
 }
 
 h5 {
     margin-bottom: ($myMargin * 4);
 }
+
 ul {
     @include defaultListStyle;
     font-size: $captionsFontSize;

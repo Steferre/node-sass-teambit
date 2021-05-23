@@ -1,11 +1,19 @@
 .fourthSct {
-    background-color: $originalBgColor;
+    background-color: $newBgColor;
+}
+
+h2 {
+    margin-bottom: ($myMargin * 3);
+    img {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 .box {
     background-color: #FFFFFF;
     padding: $myPadding * 2;
-    border: 1px solid $btnColor;
+    border: 1px solid $newTxtColor;
     border-radius: 10px;
     width: 65%;
         p {
@@ -30,6 +38,29 @@
     align-items: flex-start;
     line-height: 14px;
         .name {
-            color: $btnColor;
+            color: $newBtnColor;
         }
+}
+
+.btnBox {
+    margin-top: ($myMargin * 5);
+    text-align: center;
+    button {
+        display: inline-block;
+        padding: ($myPadding / 2) $myPadding;
+        background-color: $newBtnColor;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 5px;
+        font-size: $captionsFontSize;
+            img {
+                vertical-align: middle;
+            }
+            span {
+                vertical-align: middle;
+            }
+    }
+    .email {
+        line-height: 50px;
+    }
 }

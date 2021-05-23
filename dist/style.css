@@ -1,5 +1,7 @@
 /*file generici*/
-/*colori*/
+/*
+colori vecchi*/
+/* colori nuovi */
 /*font size*/
 * {
   margin: 0;
@@ -9,6 +11,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #7F14D4;
 }
 
 .emptySpace {
@@ -55,7 +58,7 @@ h3 {
   display: flex;
   align-items: center;
   padding: 5px;
-  border-bottom: 1px solid #58402C;
+  border-bottom: 1px solid #7F14D4;
 }
 
 .logoBox {
@@ -79,7 +82,10 @@ h3 {
 }
 .navbarLinks ul li a {
   text-decoration: none;
-  color: #58402C;
+  color: #7F14D4;
+}
+.navbarLinks ul li a:hover {
+  color: #3E14E9;
 }
 
 .btn {
@@ -90,6 +96,9 @@ h3 {
   border-radius: 10px;
   padding: 10px;
   color: #0E14EE;
+}
+.btn:hover {
+  background-color: #7F14D4;
 }
 .btn img {
   width: 20px;
@@ -104,6 +113,29 @@ h3 {
 .textSide {
   width: 100%;
 }
+.textSide h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.textSide p {
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+.textSide button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #0E14EE;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.textSide button img {
+  vertical-align: middle;
+}
+.textSide button span {
+  vertical-align: middle;
+}
 
 .imgSide {
   width: 100%;
@@ -115,12 +147,12 @@ h3 {
 }
 
 .secondSct {
-  background-color: #F6E2D5;
+  background-color: #0414B3;
   padding-bottom: 30px;
 }
 
 .spaceLine {
-  border-bottom: 1px solid #58402C;
+  border-bottom: 1px solid #7F14D4;
 }
 
 .imgRow {
@@ -196,13 +228,21 @@ h3 {
 }
 
 .fourthSct {
-  background-color: #F6E2D5;
+  background-color: #0414B3;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+h2 img {
+  width: 30px;
+  height: 30px;
 }
 
 .box {
   background-color: #FFFFFF;
   padding: 20px;
-  border: 1px solid #0E14EE;
+  border: 1px solid #7F14D4;
   border-radius: 10px;
   width: 65%;
 }
@@ -229,6 +269,29 @@ h3 {
 }
 .text .name {
   color: #0E14EE;
+}
+
+.btnBox {
+  margin-top: 25px;
+  text-align: center;
+}
+.btnBox button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #0E14EE;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.btnBox button img {
+  vertical-align: middle;
+}
+.btnBox button span {
+  vertical-align: middle;
+}
+.btnBox .email {
+  line-height: 50px;
 }
 
 span {
